@@ -4,7 +4,7 @@ kind: Kustomization
 bases:
 - ../../base
 
-patches:
+patchesStrategicMerge:
  - replicas.yaml
 
 configMapGenerator:
